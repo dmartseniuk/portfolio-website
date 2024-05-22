@@ -2,7 +2,32 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    colors: {
+      gray: "#C0C0C0",
+      "light-gray": "#EBEBEB",
+      "bright-orange": "#FF6700",
+      blue: "#004E98",
+      "light-blue": "#3A6EA5",
+    },
+    extend: {
+      textColor: {
+        gray: "#C0C0C0",
+        "light-gray": "#EBEBEB",
+        "bright-orange": "#FF6700",
+        blue: "#004E98",
+        "light-blue": "#3A6EA5",
+      },
+      fontFamily: {
+        montserrat: ["Montserrat"],
+        "hind-madurai": ["Hind Madurai"],
+      },
+      backgroundImage: {
+        home: "url('./assets/home-bg.png')",
+      },
+      dropShadow: {
+        button: "0 0 5px rgba(255, 103, 0, 0.60)",
+      },
+    },
   },
   plugins: [],
 };
