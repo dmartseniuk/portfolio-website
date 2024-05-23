@@ -27,5 +27,20 @@
             "technologies": ["HTML", "Tailwind"],
             "url": "https://github.com/Rectavia-Studio/web.git"
         }
+    ],
+    
+    "universities": [
+        {
+            "id": "pjatk",
+            "subject": "Computer Science",
+            "time": "2022-now",
+            "uni": "Polish-Japanese Academy of Information Technology"
+        },
+        {
+            "id": "umcs",
+            "subject": "Cognitive Science",
+            "time": "2020-2021",
+            "uni": "Maria Curie-Sklodowska University"
+        }
     ]
 }

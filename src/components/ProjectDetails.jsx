@@ -35,7 +35,11 @@ export default function ProjectDetails({
         className="text-bright-orange text-[24px] font-hind-madurai font-semibold flex gap-3"
         href={url}
       >
-        <img className="object-contain" src={arrow} alt="Arrow icon" />
+        <img
+          className="object-contain max-w-[30px]"
+          src={arrow}
+          alt="Arrow icon"
+        />
         <p className="self-center">GitHub Repository</p>
       </a>
     </div>
