@@ -28,7 +28,7 @@
             "url": "https://github.com/Rectavia-Studio/web.git"
         }
     ],
-    
+
     "universities": [
         {
             "id": "pjatk",
@@ -42,5 +42,26 @@
             "time": "2020-2021",
             "uni": "Maria Curie-Sklodowska University"
         }
-    ]
+    ],
+
+    "courses": [
+        {
+            "id": "web",
+            "name": "The Complete 2024 Web Development Bootcamp",
+            "skills": "HTML, CSS, JavaScript, Node.js, React, front-end and back-end development, web design, version control, blockchain technology",
+            "certificate": "./assets/certificates/certificate_web.png"
+        },
+        {
+            "id": "node",
+            "name": "Understanding Node.js: Core Concepts",
+            "skills": "buffers, file systems, streams, networking, HTTP, and Unix",
+            "certificate": "./assets/certificates/certificate_node.png"
+        }
+    ],
+
+    "skills":
+    {
+        "confident": ["Java", "SQL", "HTML", "CSS", "Tailwind", "JavaScript", "Node.js", "React"],
+        "familiar": ["Python", "C++", "Git", "Docker"]
+    }
 }

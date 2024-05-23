@@ -3,8 +3,8 @@ export default function ProjectImage({ title, image }) {
     <div className="bg-[url('./assets/project-bg.png')] bg-contain bg-no-repeat p-[4%] size-max">
       <img
         src={image}
-        alt={title + " screenshot"}
-        className="w-[540px] rounded-[20px] outline outline-blue"
+        alt={title}
+        className="w-[570px] rounded-[20px] outline outline-blue"
       />
     </div>
   );
