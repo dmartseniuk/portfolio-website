@@ -5,7 +5,7 @@ import Skill from "./Skill";
 export default function Skills() {
   return (
     <section id="skills">
-      <div className="flex bg-light-grey justify-center py-10">
+      <div className="flex bg-light-grey justify-center py-10 h-[90vh]">
         <div className="w-3/4 flex flex-col gap-10 content-center text-blue">
           <Title title="Skill Highlights" color="blue" />
           <h1 className="font-hind-madurai font-semibold text-[48px] leading-tight self-center">

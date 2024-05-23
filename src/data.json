@@ -63,5 +63,20 @@
     {
         "confident": ["Java", "SQL", "HTML", "CSS", "Tailwind", "JavaScript", "Node.js", "React"],
         "familiar": ["Python", "C++", "Git", "Docker"]
-    }
+    },
+
+    "socials": [
+        {
+            "id": "mail",
+            "url": "#"
+        },
+        {
+            "id": "linkedin",
+            "url": "https://www.linkedin.com/in/diana-martseniuk-7796262a7/"
+        },
+        {
+            "id": "github",
+            "url": "https://github.com/dmartseniuk"
+        }
+    ]
 }

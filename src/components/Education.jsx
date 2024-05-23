@@ -5,7 +5,7 @@ import Courses from "./Courses";
 
 export default function Education() {
   return (
-    <section id="education">
+    <section id="about">
       <div className="flex bg-light-grey justify-center py-10">
         <div className="w-3/4 flex flex-col gap-10 content-center">
           <Title title="Education" color="blue" />
