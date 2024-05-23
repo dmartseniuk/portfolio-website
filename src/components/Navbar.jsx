@@ -17,8 +17,9 @@ export default function Navbar() {
           {sections.map((section) => {
             return (
               <a
+                key={section}
                 href={`#${section.toLowerCase()}`}
-                class="block py-2 px-3 hover:text-blue text-light-gray font-hind-madurai font-600"
+                className="block py-2 px-3 hover:text-blue text-light-grey font-hind-madurai font-600"
               >
                 {section}
               </a>

@@ -1,7 +1,0 @@
-{
-    "title": "Pac-Man",
-    "description": "A classic arcade game recreated in Java, featuring Pac-Man navigating a maze while avoiding ghosts and collecting pellets.",
-    "image": "./",
-    "technologies": ["Java"],
-    "url": "https://github.com/dmartseniuk/PacManGame.git"
-}

@@ -5,7 +5,7 @@ import Description from "./Description";
 export default function Home() {
   return (
     <section id="home">
-      <div className="flex bg-home bg-light-gray bg-auto h-[90vh] justify-center">
+      <div className="flex bg-home bg-light-grey bg-auto h-[90vh] justify-center">
         <div className="flex justify-center gap-20 w-3/4">
           <img
             className="w-[400px] self-center rounded-[20px] drop-shadow-button"

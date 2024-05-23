@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+            "id": "pacman",
+            "title": "Pac-Man",
+            "description":
+            "A classic arcade game recreated in Java, featuring Pac-Man navigating a maze while avoiding ghosts and collecting pellets.",
+            "image": "./assets/projects/pacman.png",
+            "technologies": ["Java"],
+            "url": "https://github.com/dmartseniuk/PacManGame.git"
+        },
+        {
+            "id": "monkeytype",
+            "title": "MonkeyType Clone",
+            "description":
+                "A typing practice application inspired by MonkeyType, built in Java. Users can practice typing in 19 languages and track their performance in real-time, including detailed statistics.",
+            "image": "../assets/projects/monkeytype.png",
+            "technologies": ["Java"],
+            "url": "https://github.com/dmartseniuk/MonkeyTypeApp.git"
+        },
+        {
+            "id": "rectavia",
+            "title": "Rectavia Studio Website",
+            "description":
+                "A modern, responsive website designed for Rectavia Studio. Built with HTML and Tailwind CSS, it showcases the studio's portfolio and services with a clean, optimized design.",
+            "image": "../assets/projects/rectavia.png",
+            "technologies": ["HTML", "Tailwind"],
+            "url": "https://github.com/Rectavia-Studio/web.git"
+        }
+    ]
+}

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     colors: {
       gray: "#C0C0C0",
-      "light-gray": "#EBEBEB",
+      "light-grey": "#EBEBEB",
       "bright-orange": "#FF6700",
       blue: "#004E98",
       "light-blue": "#3A6EA5",
@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       textColor: {
         gray: "#C0C0C0",
-        "light-gray": "#EBEBEB",
+        "light-grey": "#EBEBEB",
         "bright-orange": "#FF6700",
         blue: "#004E98",
         "light-blue": "#3A6EA5",
