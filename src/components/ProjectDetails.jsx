@@ -7,7 +7,7 @@ export default function ProjectDetails({
   url,
 }) {
   return (
-    <div className="text-blue w-2/3 flex flex-col justify-between py-9">
+    <div className="text-blue w-3/5 flex flex-col justify-between py-9">
       <div>
         <h1 className="font-hind-madurai font-semibold text-[48px] leading-tight">
           {title}
@@ -32,11 +32,11 @@ export default function ProjectDetails({
         </ul>
       </div>
       <a
-        className="text-bright-orange text-[24px] font-hind-madurai font-semibold flex gap-3"
+        className="text-bright-orange text-[22px] font-hind-madurai font-semibold flex gap-3"
         href={url}
       >
         <img
-          className="object-contain max-w-[30px]"
+          className="object-contain max-w-[25px]"
           src={arrow}
           alt="Arrow icon"
         />
