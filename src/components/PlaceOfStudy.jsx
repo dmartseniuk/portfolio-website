@@ -1,6 +1,6 @@
 export default function PlaceOfStudy({ subject, uni, time }) {
   return (
-    <div className="text-blue">
+    <div className="text-blue w-1/2">
       <h1 className="font-hind-madurai font-semibold text-[48px] leading-tight">
         {subject}
       </h1>

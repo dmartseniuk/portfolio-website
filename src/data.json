@@ -48,14 +48,12 @@
         {
             "id": "web",
             "name": "The Complete 2024 Web Development Bootcamp",
-            "skills": "HTML, CSS, JavaScript, Node.js, React, front-end and back-end development, web design, version control, blockchain technology",
-            "certificate": "./assets/certificates/certificate_web.png"
+            "skills": "HTML, CSS, JavaScript, Node.js, React, front-end and back-end development, web design, version control, blockchain technology"
         },
         {
             "id": "node",
             "name": "Understanding Node.js: Core Concepts",
-            "skills": "buffers, file systems, streams, networking, HTTP, and Unix",
-            "certificate": "./assets/certificates/certificate_node.png"
+            "skills": "buffers, file systems, streams, networking, HTTP, and Unix"
         }
     ],
 

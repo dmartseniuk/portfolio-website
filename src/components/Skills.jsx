@@ -13,7 +13,7 @@ export default function Skills() {
           </h1>
           <div className="flex justify-center gap-14">
             {data.skills.confident.map((skill) => (
-              <div className="flex flex-col items-center gap-2">
+              <div key={skill} className="flex flex-col items-center gap-2">
                 <Skill skill={skill} />
                 <p className="font-hind-madurai text-[18px] text-light-blue">
                   {skill}
@@ -26,7 +26,7 @@ export default function Skills() {
           </h1>
           <div className="flex justify-center gap-14">
             {data.skills.familiar.map((skill) => (
-              <div className="flex flex-col items-center gap-2">
+              <div key={skill} className="flex flex-col items-center gap-2">
                 <Skill skill={skill} />
                 <p className="font-hind-madurai text-[18px] text-light-blue">
                   {skill}

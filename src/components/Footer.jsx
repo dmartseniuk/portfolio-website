@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-bright-orange w-full text-light-grey font-hind-madurai flex justify-center pb-4 font-thin">
       <div className="w-3/4">
-        <hr class="my-6 border-light-grey xs:mx-auto lg:my-6" />
+        <hr className="my-6 border-light-grey xs:mx-auto lg:my-6" />
         <div className="flex justify-between">
           <p>© Diana Martseniuk. All rights reserved.</p>
           <a

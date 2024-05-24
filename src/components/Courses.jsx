@@ -1,10 +1,10 @@
 import data from "../data.json";
-import ProjectImage from "./ProjectImage";
+import Carousel from "./Carousel";
 
 export default function Courses() {
   return (
     <div className="flex gap-8">
-      <div className="text-blue">
+      <div className="text-blue w-1/2">
         <h1 className="font-hind-madurai font-semibold text-[48px] leading-tight">
           Udemy Courses
         </h1>
@@ -16,9 +16,9 @@ export default function Courses() {
           ))}
         </ul>
       </div>
-      <ProjectImage
-        image={require(`../assets/certificates/certificate_web.jpeg`)}
-      />
+      <div className="w-1/2 m-auto shadow-skills outline outline-1 outline-bright-orange rounded-full justify-center bg-bright-orange bg-opacity-[10%]">
+        <Carousel slides={data.courses} />
+      </div>
     </div>
   );
 }
