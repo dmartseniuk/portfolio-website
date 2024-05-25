@@ -58,10 +58,16 @@
     ],
 
     "skills":
-    {
-        "confident": ["Java", "SQL", "HTML", "CSS", "Tailwind", "JavaScript", "Node.js", "React"],
-        "familiar": ["Python", "C++", "Git", "Docker"]
-    },
+    [
+        {
+            "level": "Confident in",
+            "technologies": ["Java", "SQL", "HTML", "CSS", "Tailwind", "JavaScript", "Node.js", "React"]
+        },
+        {
+            "level": "Familiar with",
+            "technologies": ["Python", "C++", "Git", "Docker"]
+        }
+    ],
 
     "socials": [
         {

@@ -1,11 +1,22 @@
-export default function Skill({ skill }) {
+import SkillIcon from "./SkillIcon";
+
+export default function Skill(skills) {
+  console.log(skills.skills);
   return (
-    <div className="shadow-skills w-[80px] h-[80px] outline outline-bright-orange rounded-full flex justify-center bg-bright-orange bg-opacity-[5%]">
-      <img
-        className="self-center shadow-none"
-        src={require(`../assets/skills/${skill.toLowerCase()}.png`)}
-        alt={skill}
-      />
+    <div className="flex flex-col gap-10">
+      <h1 className="font-hind-madurai font-semibold text-[48px] leading-tight self-center">
+        {skills.skills.level}
+      </h1>
+      <div className="flex justify-center gap-14">
+        {skills.skills.technologies.map((technology) => (
+          <div key={technology} className="flex flex-col items-center gap-2">
+            <SkillIcon skill={technology} />
+            <p className="font-hind-madurai text-[18px] text-light-blue">
+              {technology}
+            </p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

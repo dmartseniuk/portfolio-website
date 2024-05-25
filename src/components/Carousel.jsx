@@ -53,5 +53,3 @@ export default function Carousel({ slides }) {
     </div>
   );
 }
-
-// shadow-skills size-full outline outline-1 outline-bright-orange rounded-full justify-center bg-bright-orange bg-opacity-[10%]
