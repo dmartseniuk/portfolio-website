@@ -1,7 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Carousel({ slides }) {
   const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((previous) => {
+        if (previous + 1 < slides.length) {
+          return previous + 1;
+        } else {
+          return 0;
+        }
+      });
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [slides.length]);
 
   return (
     <div className="overflow-hidden relative flex size-[90%] m-auto">
