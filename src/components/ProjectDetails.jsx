@@ -7,9 +7,9 @@ export default function ProjectDetails({
   url,
 }) {
   return (
-    <div className="text-blue w-3/5 flex flex-col justify-between py-9">
+    <div className="text-blue lg:w-3/5 md:w-3/4 w-5/6 flex flex-col justify-between lg:py-9 py-0">
       <div>
-        <h1 className="font-hind-madurai font-semibold text-[48px] leading-tight">
+        <h1 className="font-hind-madurai font-semibold lg:text-[48px] text-[42px] leading-tight">
           {title}
         </h1>
         <p className="font-hind-madurai text-[22px]">{description}</p>
@@ -34,6 +34,8 @@ export default function ProjectDetails({
       <a
         className="text-bright-orange text-[22px] font-hind-madurai font-semibold flex gap-3"
         href={url}
+        target="_blank"
+        rel="noreferrer"
       >
         <img
           className="object-contain max-w-[25px]"

@@ -7,15 +7,16 @@ export default function Home() {
   return (
     <Section
       id="home"
-      background="bg-home bg-light-grey bg-no-repeat"
-      height="90vh"
+      background="bg-home bg-light-grey bg-cover bg-no-repeat"
+      height="h-[90vh]"
+      flex="lg:flex-row flex-col"
     >
       <img
-        className="w-[400px] self-center rounded-[20px] drop-shadow-button"
+        className="lg:w-[400px] w-[300px] self-center rounded-[20px] drop-shadow-button"
         src={photo}
         alt="personal"
       />
-      <div className="flex flex-col w-1/2 self-center">
+      <div className="flex flex-col lg:w-1/2 md:w-3/4 w-5/6 self-center lg:mx-0 mx-6">
         <Title title="I'm Diana," color="blue" />
         <Description color="light-blue">
           a passionate and results-driven Computer Science student on the

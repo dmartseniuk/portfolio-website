@@ -5,7 +5,7 @@ export default function Navbar() {
   const sections = ["Home", "Projects", "About"];
   return (
     <header className="bg-bright-orange sticky w-full z-20 top-0 start-0">
-      <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto py-2 w-3/4">
+      <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto py-2 lg:w-3/4 w-full lg:px-0 px-4">
         <a href="#home" className="flex items-center space-x-3">
           <img
             src={logo}
@@ -13,7 +13,7 @@ export default function Navbar() {
             className="h-10 w-10 hover:text-light-blue"
           />
         </a>
-        <div className="p-4 space-x-8 flex">
+        <div className="p-4 space-x-8 lg:flex hidden">
           {sections.map((section) => {
             return (
               <a

@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="flex flex-col lg:gap-10 bg-light-grey">
         <Home />
         <Projects />
         <Education />

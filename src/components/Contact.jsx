@@ -60,12 +60,13 @@ export default function Contact() {
   return (
     <Section
       id="contact"
-      height="80vh"
+      height="h-[90vh]"
       background="bg-bright-orange"
       shadow="drop-shadow-button"
+      flex="flex lg:flex-row flex-col"
       center
     >
-      <div className="w-1/2">
+      <div className="lg:w-1/2 md:w-3/4 w-5/6">
         <Title title="Get in touch" color="light-grey" />
         <Description color="light-grey">
           I'm ready to learn, collaborate, and make a meaningful impact. Let's
@@ -73,7 +74,7 @@ export default function Contact() {
         </Description>
         <Socials />
       </div>
-      <div className="w-1/2">
+      <div className="lg:w-1/2 md:w-3/4 w-5/6">
         <form
           onSubmit={(e) => onSubmit(e)}
           action="https://script.google.com/macros/s/AKfycbypIjgsbo0wF0xVUrbo3GV-n-Xu5W2Lfcs8S4Dp1RH7eIW-t679DLWjfO8vpgT53z7oZw/exec"

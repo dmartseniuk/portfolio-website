@@ -8,14 +8,15 @@ export default function Section({
   center,
 }) {
   return (
-    <section id={id}>
+    <section>
+      <span id={id} className="mt-[-88px] pb-[88px] block"></span>
       <div
-        className={`flex ${background} h-[${height}] justify-center ${shadow}`}
+        className={`flex ${background} lg:${height} justify-center ${shadow}`}
       >
         <div
           className={`flex ${flex} justify-center ${
             center ? "items-center" : undefined
-          } gap-10 w-3/4`}
+          } lg:gap-10 gap-5 lg:w-3/4 w-full lg:my-0 my-8`}
         >
           {children}
         </div>
