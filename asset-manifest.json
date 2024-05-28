@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.b25e09f6.css",
+    "main.js": "/portfolio-website/static/js/main.964997ef.js",
+    "static/js/453.aac68abc.chunk.js": "/portfolio-website/static/js/453.aac68abc.chunk.js",
+    "static/media/photo.jpeg": "/portfolio-website/static/media/photo.55e478669275992553e4.jpeg",
+    "static/media/rectavia.png": "/portfolio-website/static/media/rectavia.1ac5ffc3086998f080c4.png",
+    "static/media/certificate_web.jpeg": "/portfolio-website/static/media/certificate_web.d1d38a98ed4a41d08270.jpeg",
+    "static/media/certificate_node.jpeg": "/portfolio-website/static/media/certificate_node.917a87c77c55f23e1fb2.jpeg",
+    "static/media/home-bg.png": "/portfolio-website/static/media/home-bg.1d45e29f9084a84bbf24.png",
+    "static/media/monkeytype.png": "/portfolio-website/static/media/monkeytype.04cf2827f4eedb6ba363.png",
+    "static/media/logo.svg": "/portfolio-website/static/media/logo.2bfb9becf1c5f610f11b2f0e6ddbee97.svg",
+    "index.html": "/portfolio-website/index.html",
+    "main.b25e09f6.css.map": "/portfolio-website/static/css/main.b25e09f6.css.map",
+    "main.964997ef.js.map": "/portfolio-website/static/js/main.964997ef.js.map",
+    "453.aac68abc.chunk.js.map": "/portfolio-website/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b25e09f6.css",
+    "static/js/main.964997ef.js"
+  ]
+}
