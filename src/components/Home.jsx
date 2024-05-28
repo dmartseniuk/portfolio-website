@@ -5,12 +5,7 @@ import Section from "./Section";
 
 export default function Home() {
   return (
-    <Section
-      id="home"
-      background="bg-home bg-light-grey bg-cover bg-no-repeat"
-      height="h-[90vh]"
-      flex="lg:flex-row flex-col"
-    >
+    <Section id="home" background="home" height="90vh" flex="double">
       <img
         className="lg:w-[400px] w-[300px] self-center rounded-[20px] drop-shadow-button"
         src={photo}

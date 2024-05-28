@@ -3,7 +3,7 @@ import location from "../assets/icons/location.png";
 export default function Footer() {
   return (
     <footer className="bg-bright-orange w-full text-light-grey font-hind-madurai flex justify-center pb-4 font-thin">
-      <div className="w-5/6">
+      <div className="lg:w-3/4 w-5/6">
         <hr className="my-6 border-light-grey mx-auto lg:my-6" />
         <div className="flex justify-between gap-10">
           <p>© 2024 Diana Martseniuk</p>

@@ -6,7 +6,7 @@ import Section from "./Section";
 
 export default function Education() {
   return (
-    <Section id="about" background="bg-light-grey" flex="flex-col gap-[2.5rem]">
+    <Section id="about" flex="with10Gap">
       <Title title="Education" color="blue" />
       <div className="flex flex-col lg:flex-row gap-10 lg:w-full md:w-3/4 w-5/6 self-center">
         {data.universities.map((university) => (

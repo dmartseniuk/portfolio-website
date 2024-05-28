@@ -7,8 +7,8 @@ export default function Skills() {
   return (
     <Section
       id="skills"
-      background="bg-light-grey py-10"
-      flex="flex-col text-blue lg:items-start items-center"
+      background="basicWithPadding"
+      flex="withColorAndAdjustment"
       height="90vh"
     >
       <Title title="Skill Highlights" color="blue" />

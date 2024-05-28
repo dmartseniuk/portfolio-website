@@ -60,10 +60,10 @@ export default function Contact() {
   return (
     <Section
       id="contact"
-      height="h-[90vh]"
-      background="bg-bright-orange"
-      shadow="drop-shadow-button"
-      flex="flex lg:flex-row flex-col"
+      height="90vh"
+      background="orange"
+      shadow="basic"
+      flex="double"
       center
     >
       <div className="lg:w-1/2 md:w-3/4 w-5/6">
