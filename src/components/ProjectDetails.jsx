@@ -1,4 +1,5 @@
 import arrow from "../assets/arrow.png";
+import Link from "./Link";
 
 export default function ProjectDetails({
   title,
@@ -7,7 +8,7 @@ export default function ProjectDetails({
   url,
 }) {
   return (
-    <div className="text-blue lg:w-3/5 md:w-3/4 w-5/6 flex flex-col justify-between lg:py-9 py-0">
+    <div className="text-blue lg:w-3/5 md:w-3/4 w-5/6 flex flex-col justify-between lg:py-9 py-0 lg:gap-4 gap-2">
       <div>
         <h1 className="font-hind-madurai font-semibold lg:text-[48px] text-[42px] leading-tight">
           {title}
@@ -31,19 +32,12 @@ export default function ProjectDetails({
           ))}
         </ul>
       </div>
-      <a
-        className="text-bright-orange text-[22px] font-hind-madurai font-semibold flex gap-3"
-        href={url}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="object-contain max-w-[25px]"
-          src={arrow}
-          alt="Arrow icon"
-        />
-        <p className="self-center">GitHub Repository</p>
-      </a>
+      <Link
+        icon={arrow}
+        label="GitHub Repository"
+        url={url}
+        textSize="normal"
+      />
     </div>
   );
 }

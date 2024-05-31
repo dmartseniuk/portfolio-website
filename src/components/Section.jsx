@@ -25,7 +25,7 @@ export default function Section({
   const flexVariants = {
     double: "lg:flex-row flex-col",
     with10Gap: "flex-col gap-[2.5rem]",
-    with12Gap: "flex-col gap-12",
+    with14Gap: "flex-col gap-14",
     withColorAndAdjustment: "flex-col text-blue lg:items-start items-center",
   };
 
@@ -38,7 +38,7 @@ export default function Section({
         <div
           className={`flex ${flexVariants[flex]} justify-center ${
             center ? "items-center" : undefined
-          } lg:gap-10 gap-5 lg:w-3/4 w-full lg:my-0 my-8`}
+          } lg:gap-10 gap-5 lg:w-3/4 w-full lg:my-0 my-6`}
         >
           {children}
         </div>

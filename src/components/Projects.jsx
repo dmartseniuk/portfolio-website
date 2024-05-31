@@ -5,7 +5,7 @@ import Section from "./Section";
 
 export default function Projects() {
   return (
-    <Section id="projects" background="basicWithPadding" flex="with12Gap">
+    <Section id="projects" background="basicWithPadding" flex="with14Gap">
       <Title title="Projects" color="blue" />
       {data.projects.map((project, index) => (
         <Project
