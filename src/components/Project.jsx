@@ -6,9 +6,10 @@ export default function Project({
   index,
   title,
   description,
-  image,
   technologies,
   url,
+  link,
+  id,
 }) {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -32,7 +33,7 @@ export default function Project({
 
   const orderMobile = (
     <>
-      <ProjectImage image={image} title={title} />
+      <ProjectImage title={title} id={id} link={link} />
       <ProjectDetails
         title={title}
         description={description}
@@ -45,7 +46,7 @@ export default function Project({
   const orderLg =
     index % 2 === 0 ? (
       <>
-        <ProjectImage image={image} title={title} />
+        <ProjectImage title={title} id={id} link={link} />
         <ProjectDetails
           title={title}
           description={description}
@@ -61,7 +62,7 @@ export default function Project({
           technologies={technologies}
           url={url}
         />
-        <ProjectImage image={image} title={title} />
+        <ProjectImage title={title} id={id} link={link} />
       </>
     );
 

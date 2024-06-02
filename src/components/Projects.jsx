@@ -12,10 +12,11 @@ export default function Projects() {
           key={project.id}
           index={index}
           title={project.title}
-          image={require(`../assets/projects/${project.id}.png`)}
           description={project.description}
           technologies={project.technologies}
           url={project.url}
+          link={project.link}
+          id={project.id}
         />
       ))}
     </Section>
