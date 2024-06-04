@@ -6,10 +6,10 @@
     html {
       scroll-behavior: smooth;
     }
+}
 
-    @layer base {
-      body {
-        @apply bg-bright-orange
-      }
-    }
+@layer base {
+  body {
+    @apply bg-bright-orange
   }
+}
