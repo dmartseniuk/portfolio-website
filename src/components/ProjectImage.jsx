@@ -8,7 +8,7 @@ export default function ProjectImage({ title, id, link }) {
     <div className="shadow-skills size-full outline outline-1 outline-bright-orange rounded-full flex justify-center self-center bg-bright-orange bg-opacity-[10%] md:w-max w-5/6">
       {isVideo ? (
         <video
-          className="rounded-[20px] outline outline-blue self-center m-8 z-10 w-[90%] max-w-[500px]"
+          className="rounded-[20px] outline outline-blue self-center m-8 z-10 w-[90%] max-w-[500px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-[1.05]"
           poster={require(`../assets/projects/${
             id.search("_with_video") === -1 ? id : id.slice(0, -11)
           }.png`)}
@@ -26,7 +26,7 @@ export default function ProjectImage({ title, id, link }) {
       ) : (
         <a
           href={link}
-          className="self-center m-8 w-[90%] z-10"
+          className="self-center m-8 w-[90%] z-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-[1.05]"
           target="_blank"
           rel="noreferrer"
         >
